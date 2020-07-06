@@ -1,0 +1,183 @@
+/* 
+body{
+  background-color: #f5f5f5;
+  color: #313131;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  background-color: white;
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0.4px 4px 12px rgba(0, 0, 0, 0.2);
+  text-shadow: 0.4px 0.4px 5px rgba(0, 0, 0, 0.2);
+}
+
+form h2{
+  text-align: center;
+  font-weight: 400;
+  user-select: none;
+}
+
+.input-group{
+  position: relative;
+  padding: 1rem 0;
+}
+
+form input{
+  border: none;
+  border-bottom: 1px solid dodgerblue;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  padding: 6px 4px;
+}
+
+form label{
+  position: absolute;
+  top: 21px;
+  left: 22px;
+  font-size: 16px;
+  font-weight: 300;
+  pointer-events: none;
+  color: gray;
+  transition: 200ms ease;
+}
+
+input:focus + label, input:valid + label{
+  top: 0;
+  left: 22px;
+  color: dodgerblue;
+}
+
+form button{
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  width: 100%;
+  color: white;
+  padding: 0.4rem;
+  font-size: 15px;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+form p{
+  margin: 1.6rem 0 1rem;
+}
+
+form p a {
+  color: inherit;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color: #f5f5f5;
+  color: #313131;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  background-color: white;
+  padding: 1rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0.2px 0.2px 12px rgba(0, 0, 0, 0.2);
+  text-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form h2{
+  text-align: center;
+  font-weight: 400;
+  user-select: none;
+  margin-bottom: 2rem;
+}
+
+.input-group{
+  position: relative;
+  padding: 1rem 0;
+}
+
+form input{
+  border: none;
+  border-bottom: 1px solid dodgerblue;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+}
+
+form label{
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  color: gray;
+  font-size: 16px;
+  transition: 0.2 ease;
+}
+
+input:focus + label, input:valid + label{
+  top: -8px;
+  left: 24px;
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+form button{
+  background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  width: 100%;
+  padding: 0.4rem;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  margin-top: 1rem;
+}
+
+form p{
+  margin-top: 2rem;
+}
+
+form p a{
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

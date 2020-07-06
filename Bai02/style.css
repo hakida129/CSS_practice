@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  background-color: rgba(102, 214, 88, 0.404);
+  border-radius: 1.6rem;
+  padding: 2rem;
+  width: 500px;
+}
+
+.wrapper .top{
+  position: relative;
+}
+
+.wrapper .top:after{
+  content: '';
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.wrapper .top i{
+  font-size: 40px;
+  color: aliceblue;
+  background-color: dodgerblue;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.wrapper .top h3{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper .top p{
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .content .item{
+  position: relative;
+}
+
+.wrapper .content .item h4{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.wrapper .content .item .img{
+  position: absolute;
+  top: -10%;
+  left: 75%;
+}
+
+.wrapper .content .item i{
+  font-size: 15px;
+  color: aliceblue;
+  background-color: dodgerblue;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.wrapper .content .item:nth-child(1):after{
+  content: '';
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.wrapper .content .item .img img{
+  width: 30px;
+  height: 30px;
+  padding: 0.1rem;
+  border-radius: 0.6rem;
+}
